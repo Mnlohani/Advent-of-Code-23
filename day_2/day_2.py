@@ -53,7 +53,7 @@ sum_valid_game_ids = sum(valid_game_ids)
 print(f"The sum of valid game ids is {sum_valid_game_ids}.")
 
 
-# Part 1: Power of sets containing the minimum number of cubes that must be present for a game
+# Part 2: Power of sets containing the minimum number of cubes that must be present for a game
 # ---------------------------------------------------------------------------------------------
 
 sum_power_of_sets = calculate_power_of_minimum_set(df)
