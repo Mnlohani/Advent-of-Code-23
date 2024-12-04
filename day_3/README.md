@@ -1,4 +1,4 @@
-## Part 1:
+## Part 1: Sum of all of the part numbers that are adjacent to a symbol except '.'
 
 ### Approach:
 
@@ -8,7 +8,7 @@
 
 ## Part 2:
 
-### Approach:
+### Approach: Sum of all of the gear ratios in the engine schematic
 
 1. Loop through an outer loop for symbols to identify the gears ('\*' symbols with exactly 2 neighbors)
 2. Loop through an inner each part number to find overlap between the indices of part number and neighbors of symbol '\*'
